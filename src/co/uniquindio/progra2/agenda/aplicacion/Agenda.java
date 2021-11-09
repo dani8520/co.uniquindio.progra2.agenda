@@ -211,5 +211,24 @@ public class Agenda {
 	{
 		System.out.print(arregloCaracteres[i] + " ");
 	}
+//________________________________________________________________________    
+ prueva de git 
+ public static String devolverCharArreglo(char arregloCaracteres[]) {
+		String salida;
+		salida = "La frase pasada a arreglo de caracteres es:  [";
+		for (int i = 0; i < arregloCaracteres.length; i++) {
+			salida += arregloCaracteres[i] + "  ";
+		}
+		salida += "]";
+		return (salida);
+	}}
+
+//imprimir normal
+	for(
+
+	int i = 0;i<arregloCaracteres.length;i++)
+	{
+		System.out.print(arregloCaracteres[i] + " ");
+	}
 
 }
